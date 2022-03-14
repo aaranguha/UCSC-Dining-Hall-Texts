@@ -58,13 +58,6 @@ def UCSC():
                 dict_add(menu[k], ik, recipe.find('span').text.strip("\xa0"))
 
 
-    #for x in menu.keys():
-        #print(x)
-        #for y in menu[x].keys():
-            #print("\t" + y)
-            #for z in menu[x][y]:
-                #print("\t\t" + z)
-
         def brekky():
             s = ""
             x = "Breakfast"
@@ -110,7 +103,7 @@ def UCSC():
             to=number
         )
  
-#UCSC()
+UCSC()
 
 
 def Riv():

@@ -19,7 +19,7 @@ def dict_formatter(dict, format_string):
 
 def UCSC():
     account_sid = "ACd027baa66c85b1749c04c153245f1532"
-    auth_token="47161313f56c8f993b2055656e7ce9b9"
+    auth_token="can't be displayed"
     client = Client(account_sid, auth_token)
     numbersToMessage_UCSC = {'Aaran':'+15109469095',
                              'Aswhin':'+13413561722',
@@ -108,7 +108,7 @@ UCSC()
 
 def Riv():
     account_sid = "ACd027baa66c85b1749c04c153245f1532"
-    auth_token="47161313f56c8f993b2055656e7ce9b9"
+    auth_token="can't be displayed"
     client = Client(account_sid, auth_token)
     numbersToMessage_Riv = {
                              'Rashi': '15105792186', 
